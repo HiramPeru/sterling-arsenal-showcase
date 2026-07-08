@@ -1,118 +1,78 @@
-# Sterling Arsenal — Client Project Showcase
+# Sterling Arsenal Technical Continuity Showcase
 
-A private client software project delivered under the direction of Christian Ochoa / HiramPeru, with software development support from Bruno Pineda.
+Sterling Arsenal is a sanitized public portfolio repository that documents a legacy business application review, technical continuity work, demo-readiness planning, and a modernization path for a legacy PHP platform.
 
-> This repository is a public portfolio showcase. It does not contain production source code, credentials, customer data, private business information, deployment URLs, database exports, or proprietary implementation details.
+This repository is intended to demonstrate technical judgment in legacy application assessment, documentation discipline, security hardening, sanitization, and phased modernization planning. It does not publish private implementation assets.
 
-## 1. Project Context
+## Executive Summary
 
-**Sterling Arsenal** is a client-owned software project. The original codebase remains private because it contains implementation details related to a real business engagement.
+The original engagement involved replacing an MS Access-oriented workflow with a more modern cloud-oriented business platform. The public record for the original client-facing timeline ends with an open testing and review cycle in October 2023. This repository presents the work afterward as independent technical continuity, security-focused sanitization, demo-readiness preparation, documentation, and modernization alignment for a legacy business application.
 
-This public repository exists to document the project at a portfolio level without exposing confidential code or operational data.
+## Repository Purpose
 
-## 2. Role & Contribution
+This public repository exists to:
 
-| Area | Contribution |
-|---|---|
-| Client relationship | Managed by Christian Ochoa / HiramPeru |
-| Solution ownership | Requirements, delivery direction, review, and coordination |
-| Software implementation | Development support by Bruno Pineda |
-| Repository visibility strategy | Private codebase + public showcase |
-| Public documentation | Sanitized portfolio-level documentation |
+- present a professional, sanitized technical showcase;
+- document the legacy application at a high level;
+- capture continuity and handover-oriented documentation;
+- describe safe demo and review constraints; and
+- outline a practical modernization path without exposing confidential assets.
 
-## 3. Visibility Strategy
+## Public Scope Notice
 
-The project is intentionally split into two layers:
+This is a sanitized public portfolio repository. It does not include production source code, credentials, private database content, customer or vendor data, confidential screenshots, deployment secrets, database exports, or internal-only delivery assets.
 
-```text
-Private Codebase
-    └── Full implementation, source code, commits, technical assets
+## Historical Context
 
-Public Showcase
-    └── Business context, role, contribution, architecture summary, and roadmap
-```
+- July 2023: a modernization proposal was prepared to replace an MS Access-based workflow with a cloud-oriented business platform.
+- September 2023: adoption planning covered database migration, parallel operation, and production transition planning.
+- October 2023: the testing and review cycle remained open and was not completed within the original client-facing timeline.
+- Subsequent work is framed here as technical continuity, documentation, sanitization, security hardening, demo readiness, and modernization planning.
 
-This allows the project to be visible on GitHub while protecting the client relationship, private code, and implementation details.
+## Current Technical Positioning
 
-## 4. Why the Codebase Remains Private
+The legacy platform is represented as a PHP procedural application backed by a MySQL or MariaDB-style database, with local staging used for technical review. The documentation in this repository focuses on continuity and review readiness rather than code publication.
 
-The production repository is not public because it may include:
+## Functional Areas Reviewed
 
-- Client-specific workflows.
-- Business logic.
-- Internal naming conventions.
-- Deployment details.
-- Data model details.
-- Implementation decisions.
-- Commit history related to client delivery.
-- Potentially sensitive operational assumptions.
+- Customer and account records
+- Sales and transaction workflows
+- Acquisition and procurement processes
+- Inventory or operational record handling
+- Reporting and exported outputs
+- Administrative access and review controls
 
-## 5. Portfolio Value
+## Technical Architecture Summary
 
-This project demonstrates:
+At a high level, the reviewed system consists of a legacy PHP application layer, a relational database, operational and reporting views, and a controlled staging environment used for documentation and safe review preparation. See [Architecture](docs/architecture.md) and [Legacy Architecture Diagram](diagrams/legacy-architecture.mmd).
 
-- Client-facing technology delivery.
-- Coordination between business owner and developer.
-- Software project extraction and repository ownership hygiene.
-- Private-to-public GitHub visibility strategy.
-- Professional handling of client code.
-- Separation between delivery assets and public portfolio assets.
-- GitHub repository management.
-- Technical documentation and showcase preparation.
+## Security And Sanitization Summary
 
-## 6. Repository Structure
+Public materials are limited to sanitized documentation and diagrams. The portfolio framing assumes no production secrets, no private data, no PII exposure, no destructive actions in a demo context, and no debug or SQL visibility in stakeholder-facing review surfaces. See [Security And Sanitization](docs/security-sanitization.md).
 
-```text
-README.md
-docs/
-  architecture.md
-  security-review.md
-  contribution-model.md
-  roadmap.md
-screenshots/
-  README.md
-```
+## Demo Readiness Summary
 
-## 7. Security & Privacy Position
+The repository describes a safe review posture based on documentation, controlled staging, and read-only or demo-oriented constraints. It is designed for technical walkthroughs and stakeholder review without disclosing sensitive assets. See [Demo Readiness](docs/demo-readiness.md).
 
-This public showcase excludes:
+## Modernization Path Summary
 
-- Production source code.
-- Private Git history.
-- Credentials.
-- Environment files.
-- API keys.
-- Tokens.
-- Deployment URLs.
-- Client operational data.
-- Database exports.
-- User records.
-- Payment information.
-- Private documentation.
-- Internal communication.
-- Screenshots with real data.
+The preferred modernization direction is a Laravel plus PostgreSQL backend, with a possible Next.js and TypeScript executive interface for modern reporting and operational visibility. This is presented as a recommended path, not a completed delivery. See [Modernization Path](docs/modernization-path.md).
 
-## 8. Current Status
+## Documentation Index
 
-| Item | Status |
-|---|---|
-| Original repository | Private / client-related |
-| Extracted private copy | Maintained separately |
-| Public showcase | Documentation-only |
-| Code publication | Not recommended at this stage |
+- [Technical Continuity](docs/technical-continuity.md)
+- [Architecture](docs/architecture.md)
+- [Legacy Application Review](docs/legacy-application-review.md)
+- [Security And Sanitization](docs/security-sanitization.md)
+- [Demo Readiness](docs/demo-readiness.md)
+- [Modernization Path](docs/modernization-path.md)
+- [Delivery Scope](docs/delivery-scope.md)
+- [Client Handover Notes](docs/client-handover-notes.md)
+- [Legacy Architecture Diagram](diagrams/legacy-architecture.mmd)
+- [Demo Readiness Flow Diagram](diagrams/demo-readiness-flow.mmd)
+- [Modernization Path Diagram](diagrams/modernization-path.mmd)
+- [Screenshots Guidance](screenshots/README.md)
 
-## 9. Recommended GitHub Use
+## Repository Boundary
 
-This repository can be pinned on the GitHub profile as a visible project reference.
-
-Recommended profile positioning:
-
-```text
-Client project showcase — private codebase, public delivery summary.
-```
-
-## 10. Attribution
-
-Project delivery and client relationship: **Christian Ochoa / HiramPeru**  
-Software development support: **Bruno Pineda**  
-Codebase visibility: **Private by design**
+This repository is a sanitized public showcase only. It does not include production source code, credentials, private data, database exports, confidential client assets, or internal implementation materials.

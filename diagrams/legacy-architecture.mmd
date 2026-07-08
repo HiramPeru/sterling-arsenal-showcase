@@ -1,0 +1,12 @@
+flowchart LR
+    user["Business User"] --> app["Legacy PHP Application"]
+    admin["Administrator"] --> app
+    app --> db["MySQL or MariaDB Database"]
+    app --> reports["Reporting and File Outputs"]
+    stage["Hosting or Staging Environment"] --> app
+
+    subgraph boundary["Sanitized Review Security Boundary"]
+        app
+        db
+        reports
+    end

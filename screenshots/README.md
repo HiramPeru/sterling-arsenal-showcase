@@ -1,13 +1,24 @@
-# Screenshots
+# Screenshots Guidance
 
-Only sanitized screenshots should be placed here.
+Add only sanitized screenshots to this folder.
 
-Rules:
+## Public Safety Rules
 
-- Use demo data only.
-- Do not include client records.
-- Do not include user names.
-- Do not include emails or phone numbers.
-- Do not include deployment URLs.
-- Do not include admin panels with real users.
-- Do not include internal business data.
+- no personally identifiable information;
+- no credentials or secrets;
+- no operationally sensitive information;
+- no private customer or vendor details;
+- no real financial or transactional records;
+- no internal debug or SQL output.
+
+## Recommended Screenshot Categories
+
+- high-level dashboard concepts with mock data;
+- sanitized reporting examples;
+- role-based navigation examples;
+- documentation companion visuals;
+- architecture or workflow illustrations derived from non-sensitive material.
+
+## Review Standard
+
+Every screenshot should be checked before publication to confirm that it uses masked, synthetic, or otherwise safe content suitable for a public technical showcase.

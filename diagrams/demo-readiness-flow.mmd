@@ -1,0 +1,5 @@
+flowchart LR
+    repo["Sanitized Repository and Documentation"] --> staging["Local or Demo Staging"]
+    staging --> controls["Read-Only and Demo Controls"]
+    controls --> review["Stakeholder Review"]
+    review --> validation["Validation Items and Next-Step Decisions"]
