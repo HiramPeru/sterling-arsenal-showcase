@@ -58,6 +58,22 @@ The repository describes a safe review posture based on documentation, controlle
 
 The preferred modernization direction is a Laravel plus PostgreSQL backend, with a possible Next.js and TypeScript executive interface for modern reporting and operational visibility. This is presented as a recommended path, not a completed delivery. See [Modernization Path](docs/modernization-path.md).
 
+## Business Problem
+
+A legacy business platform needed technical continuity and a reviewable modernization path after the original client-facing testing cycle remained open. The scope here is to make architecture, handover constraints and safe review conditions understandable.
+
+## My Role / Contribution
+
+I maintain this sanitized technical continuity showcase, including legacy review framing, security and demo boundaries, and modernization recommendations. The [continuity record](docs/technical-continuity.md) and [delivery scope](docs/delivery-scope.md) define the public contribution. Subsequent independent continuity work does not imply client acceptance or completion of the original engagement.
+
+## Evidence / Outcomes
+
+- [Legacy application review](docs/legacy-application-review.md) and [architecture](docs/architecture.md) provide a documented assessment surface.
+- [Security and sanitization](docs/security-sanitization.md) and [demo readiness](docs/demo-readiness.md) define safe review constraints.
+- [Modernization path](docs/modernization-path.md) explains a proposed Laravel/PostgreSQL direction with an optional Next.js interface; it is not delivered modernization.
+
+The observable outcome is a reviewable documentation set. No completed client acceptance, production migration, or quantified business improvement is claimed.
+
 ## Documentation Index
 
 - [Technical Continuity](docs/technical-continuity.md)
