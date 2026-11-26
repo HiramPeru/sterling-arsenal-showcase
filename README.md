@@ -1,5 +1,7 @@
 # Sterling Arsenal Technical Continuity Showcase
 
+**Project Status:** Sanitized technical continuity and legacy modernization case study (documentation and Mermaid diagrams only; original client-facing testing cycle remained open in October 2023; subsequent work is independent technical continuity).
+
 Sterling Arsenal is a sanitized public portfolio repository that documents a legacy business application review, technical continuity work, demo-readiness planning, and a modernization path for a legacy PHP platform.
 
 This repository is intended to demonstrate technical judgment in legacy application assessment, documentation discipline, security hardening, sanitization, and phased modernization planning. It does not publish private implementation assets.
@@ -73,6 +75,17 @@ I maintain this sanitized technical continuity showcase, including legacy review
 - [Modernization path](docs/modernization-path.md) explains a proposed Laravel/PostgreSQL direction with an optional Next.js interface; it is not delivered modernization.
 
 The observable outcome is a reviewable documentation set. No completed client acceptance, production migration, or quantified business improvement is claimed.
+
+## Key Technical Decisions
+
+- **Continuity and safe review before replacement:** Rather than proposing an immediate high-risk rewrite of an undocumented procedural PHP/MySQL application, the continuity approach establishes a controlled local staging boundary, input/error-visibility hardening, and read-only demo constraints ([docs/demo-readiness.md](docs/demo-readiness.md)).
+- **Explicit separation of engagement history and continuity work:** The documentation separates the original 2023 client-facing timeline (which ended with an open testing cycle in October 2023) from subsequent independent technical continuity and modernization analysis ([docs/technical-continuity.md](docs/technical-continuity.md)).
+- **Phased modernization target:** The proposed target architecture ([docs/modernization-path.md](docs/modernization-path.md)) recommends a domain-structured Laravel and PostgreSQL backend with an optional Next.js/TypeScript interface so data integrity and access controls can be migrated incrementally.
+
+## Limitations
+
+- **Documentation-only showcase (non-executable):** This repository publishes sanitized assessment notes and Mermaid diagrams only; it contains no legacy PHP source code, SQL dumps, or executable containers.
+- **No claimed client acceptance or production cutover:** Neither the post-October 2023 continuity documentation nor the proposed Laravel/PostgreSQL modernization path is presented as an accepted or deployed client delivery.
 
 ## Documentation Index
 
